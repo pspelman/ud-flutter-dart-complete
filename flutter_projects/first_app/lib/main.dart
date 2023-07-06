@@ -1,7 +1,34 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  // runApp(const MyApp());
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        body: Container(
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Color.fromARGB(255, 106, 236, 238),
+                Colors.deepPurpleAccent
+              ],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomRight,
+            ),
+          ),
+          child: const Center(
+            child: Text(
+              'Hello world and such',
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 28
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -18,10 +45,10 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('First App'),
         ),
-        body: Center(
+        body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
+            children: [
               Text(
                 'Hello World!',
               ),
