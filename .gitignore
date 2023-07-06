@@ -1,0 +1,49 @@
+# Flutter/Dart specific
+**/build/
+**/ios/Pods/
+**/android/.gradle/
+**/android/app/build/
+**/android/app/intermediates/
+**/android/gradle/
+**/android/gradlew
+**/android/gradlew.bat
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+*.bak
+*~
+
+# Dart-specific
+*/.dart_tool/
+*/.packages
+*/.pub/
+*/build/
+*/.flutter-plugins
+*/.flutter-plugins-dependencies
+*/.flutter-plugins-stamp
+*/.flutter-plugins-version
+*/.flutter_version
+*/.pub-cache/
+
+# iOS specific
+**/Pods/
+**/Podfile.lock
+**/Pods/Manifest.lock
+**/ios/Flutter/Flutter.framework/
+
+# Android specific
+**/android/.idea/
+**/android/captures/
+**/android/gradle/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/gradle-wrapper.properties
+
+# Flutter/Dart project specific
+/flutter_service_worker.js
+/flutter_service_worker.copy.js
